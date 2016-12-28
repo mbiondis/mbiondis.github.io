@@ -1,0 +1,77 @@
+# Site settings
+title: Martin Biondi Sarra
+email: martinbiondi92@gmail.com
+url: https://mbiondis.github.io
+description: "Martin Biondi Sarra, Electronic Engineer and Automation Consultant."
+skills: "Electronic Engineer - Process Automation Specialist - Hardware Developer"
+meta_author: Biondi Sarra Martin
+
+# Google webmaster tools
+google_verify:
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
+# contact: static
+contact:
+  - title: mobile
+    content: +39 331 265 2327
+  - title: skype
+    content: martin.biondi
+  - title: email
+    content: martinbiondi92@gmail.com  
+
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+disqus_shortname: mbiondis
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  #primary: 18bc9c #80B3FF
+  #primary-rgb: "24,288,156" #"128,179,255"
+  #secondary: 2c3e50 #FD6E8A
+  #secondary-dark: 233140 #A2122F
+  primary: 005289
+  secondary: 2c3e50
+  secondary-dark: 233140
+
+# Footer settings
+footer:
+  copyright: Martin Biondi Sarra
+  location: Location
+  social: Around the Web
+  credits: Credits
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: skype
+    url:
+    text: martin.biondi
+  - title: mobile 
+    url:
+    text: +39 331 265 2327
+  - title: envelope
+    url:
+    text: martinbiondi92@gmail.com
+#  - title: stack-overflow
+#    url: http://stackoverflow.com/questions/tagged/mbiondis
+#  - title: bitbucket
+#    url: http://bitbucket.org/mbiondis
+#  - title: github
+#    url: http://github.com/mbiondis
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Via Antonio Cesari 19
+  - line: Milan, Italy 20162
+
+# Credits content
+credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+
+# Build settings
+markdown: kramdown
+permalink: pretty
