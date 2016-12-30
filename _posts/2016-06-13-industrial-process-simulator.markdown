@@ -6,6 +6,7 @@ img: nitratos_austin.png
 alt: image-alt
 project-date: June 2016
 client: Nitratos Austin S.A.
+url: http://www.ypf.com
 category: Software Development
 description: Implementation of an industrial process simulator from chemical and physical equations. Design of a modular programming framework to allow block reutilization. Validation of models with real-world data from the nitrate plant.
 ---

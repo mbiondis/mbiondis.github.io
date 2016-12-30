@@ -20,10 +20,10 @@ bing_verify:
 contact:
   - title: mobile
     content: +39 331 265 2327
-  - title: skype
-    content: martin.biondi
   - title: email
     content: martinbiondi92@gmail.com  
+  - title: skype
+    content: martin.biondi
 
 # If you use disqus you need disqus shortname
 # https://help.disqus.com/customer/portal/articles/466208
@@ -57,6 +57,9 @@ social:
   - title: envelope
     url:
     text: martinbiondi92@gmail.com
+#  - title: download
+#    url: /downloads/2016-12_CV-Martin_Biondi_Sarra-English.pdf
+#    text: CV
 #  - title: stack-overflow
 #    url: http://stackoverflow.com/questions/tagged/mbiondis
 #  - title: bitbucket
@@ -68,9 +71,6 @@ social:
 address:
   - line: Via Antonio Cesari 19
   - line: Milan, Italy 20162
-
-# Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
 # Build settings
 markdown: kramdown

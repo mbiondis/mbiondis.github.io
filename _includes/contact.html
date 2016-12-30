@@ -9,10 +9,10 @@
 		</div>
         <ul class="contact">
             {% for network in site.social %}
-            <li class="channels">
-                <i class="btn-social btn-outline fa fa-fw fa-{{ network.title }}"></i>
+            <div class="channels">
+                <i class="btn-social fa fa-fw fa-{{ network.title }}"></i>
                 <p class="temp">{{ network.text }}</p>
-            </li>
+            </div>
             {% endfor %}
         </ul>
 	</div>

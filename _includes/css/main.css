@@ -336,7 +336,7 @@ section.success {
 
 /******* DESKTOP *******/
 
-@media(min-width:768px) {
+@media(min-width:500px) {
 
     .about-martin img {
         float: left;
@@ -356,33 +356,26 @@ section.success {
 /*************************************      CONTACT      *************************************/
 /*********************************************************************************************/
 
-.contact{
-    list-style-type: none;
+/******* MOBILE *******/
+
+.contact {
+    text-align: center;
     font-size: 7vmin;
-    line-height: 200%;
-    padding: 0; 
+    padding: 10px 0;
+    margin: 0;
 }
 
-.temp{
-    display: inline;
-    font-size: 5vmin;
+.contact .channels {
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
 }
 
-.btn-outline {
-    border: solid 2px #fff;
-    font-size: 20px;
-    color: #{{ site.color.primary }};
-    background: 0 0;
-    transition: all .3s ease-in-out;
-}
-
-.btn-outline:hover,
-.btn-outline:focus,
-.btn-outline:active,
-.btn-outline.active {
-    border: solid 2px #fff;
-    color: #{{ site.color.secondary }};
-    background: #fff;
+.contact .temp{ 
+    font-size: 3vmin;
+    word-wrap: break-word;
+    text-align: center;
 }
 
 .btn-social {
@@ -397,24 +390,12 @@ section.success {
     outline: 0;
 }
 
-
-/******* DESKTOP *******/
-
-@media(min-width:768px) {
-
-    .about-martin img {
-        float: left;
+@media(min-width:500px){
+    .contact .channels {
+        width: 32%;
     }
+}
 
-    .about-martin .text-block{
-        overflow: auto;
-        padding-left: 20px;
-    }   
-
-    .about-martin h3 {
-        text-align: left;
-    }
-} 
 /*********************************************************************************************/
 /**************************************      FOOTER      *************************************/
 /*********************************************************************************************/
